@@ -104,7 +104,7 @@ main{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #f39c62b4;
     margin: 130px 0px;
 }
 .about-info-container{
@@ -114,6 +114,20 @@ main{
 }
 .about-info{
     text-align: center;
+}
+
+/* what i do section  */
+
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
 }
 
 
