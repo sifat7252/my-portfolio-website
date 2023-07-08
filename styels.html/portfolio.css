@@ -26,12 +26,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    /* margin-left: 0; */
 
 }
 nav > ul{
@@ -49,14 +50,54 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px 500px;
 }
 .banar{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banar-contant{
+    max-width: 500px;
 }
 .banar .profile{
     width: 500px;
+}
+.banar-greeting{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banar-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5;
+    margin-bottom: 15px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
 
 
