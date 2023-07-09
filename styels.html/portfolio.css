@@ -61,6 +61,14 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+#hireme{
+    text-decoration: white;
+}
+#underlink{
+    text-decoration: none;
+    color: white;
 }
 .banar-contant{
     max-width: 500px;
